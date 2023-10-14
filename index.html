@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menú</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="https://kit.fontawesome.com/2baf3a8f8e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <button class="burger" onclick="toggleMenu()">Menú</button>
+    <div class="background"></div>
+    <div class="menu">
+      <nav>
+        <a href="#" style="animation-delay: 0.2s"> Inicio </a>
+        <a href="#" style="animation-delay: 0.2s"> Sobre mí </a>
+        <a href="#" style="animation-delay: 0.2s"> Trabajos </a>
+        <a href="#" style="animation-delay: 0.2s"> Contacto </a>
+      </nav>
+    </div>
+    <script type="text/javascript">
+      const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+    <section class="header">
+        <h1 class="h1_header"></h1>
+    </section>
+
+    <section>
+      <footer class="top">
+        <img src="/assets/01_two_peaks.png" alt="Logotipo two peaks" />
+        <div class="links">
+          <div class="links-column">
+            <h2>Ayuda</h2>
+            <a href="#">F.A.Q</a>
+            <a href="#">Contacto</a>
+            <a href="#">Search</a>
+            <a href="#">Envíos</a>
+            <a href="#">Devoluciones</a>
+            <a href="#">Guía de tallas</a>
+            <a href="#">Condiciones generales de contratación</a>
+          </div>
+          <div class="links-column">
+            <h2>Empresa</h2>
+            <a href="#">Patrones de ideas</a>
+            <a href="#">Fundación Pirates for good</a>
+            <a href="#">Tiendas</a>
+            <a href="#">¿Quiénes somos?</a>
+            <a href="#">Trabajar en Scalpers</a>
+            <a href="#">Aviso legal</a>
+            <a href="#">Código ético</a>
+            <a href="#">Canal legal</a>
+            <a href="#">Políticas de privacidad</a>
+            <a href="#">Políticas de cookies</a>
+          </div>
+          <div class="links-column socials-column">
+            <h2>Social Media</h2>
+            <p>Follow us on social media to find out the latest updates on our progress.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+              
+                
+            </div>
+          </div>
+        </div>
+      </footer>
+      <footer class="bottom">
+        <div class="bottom_text">
+        <p class="copyright">© 2023</p>
+        <div class="legal">
+            <a href="#">License</a>
+        </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
